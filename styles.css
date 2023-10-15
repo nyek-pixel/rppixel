@@ -11,11 +11,11 @@ li {
 
 /* Set a background color for the body */
 body {
-    background-color: #f8f8f8;
+    background-color: #000000;
     font-family: Arial, sans-serif;
 }
 
-.header {
+header {
     min-height: 100vh;
     width: 100%;
     background-image: linear-gradient(rgba(10, 53, 223, 0.77), rgba(245, 202, 12, 0.95)), url(images/Oversized);
