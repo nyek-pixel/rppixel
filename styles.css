@@ -30,11 +30,22 @@
 .navbar ul li {
     list-style: none;
     display: inline-block;
-    margin: 0 20px;
+    margin: 0 30px;
+    position: relative;
 }
 
 .navbar ul li a {
     text-decoration: none;
     color: #fff;
     text-transform: uppercase;
+}
+
+.navbar ul li ::after {
+    content: '';
+    height: 3px;
+    width: 100%;
+    background: #009289;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
 }
