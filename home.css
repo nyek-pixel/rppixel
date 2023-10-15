@@ -29,7 +29,9 @@ body {
     padding: 20px;
     width: 300px;
     text-align: center;
-    margin-left: auto;
+    position: fixed;
+    top: 60px;
+    right: 0;
     transition: background-color 0.3s;
 
 }
