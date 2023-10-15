@@ -25,14 +25,6 @@ body {
 
 }
 
-/* Style the header with a background color and centered text */
-header {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 20px;
-}
-
 /* Style the main navigation menu */
 nav ul {
     list-style-type: none;
