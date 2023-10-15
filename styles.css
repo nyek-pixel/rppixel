@@ -69,3 +69,14 @@
     text-align: center;
     color: black;
 }
+
+.Content h1 {
+    font-size: 70px;
+    margin-top: 80px;
+}
+
+.Content p {
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+}
