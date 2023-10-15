@@ -1,70 +1,14 @@
-/* Reset some default styles for cross-browser consistency */
-body,
-h1,
-h2,
-p,
-ul,
-li {
+* {
     margin: 0;
     padding: 0;
+    font-family: sans-serif;
 }
 
-/* Set a background color for the body */
-body {
-    background-color: #000000;
-    font-family: Arial, sans-serif;
-}
-
-header {
-    min-height: 100vh;
+.banner {
     width: 100%;
-    background-image: linear-gradient(rgba(10, 53, 223, 0.77), rgba(245, 202, 12, 0.95)), url(images/Oversized);
-    background-position: center;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(bannerOS.png);
     background-size: cover;
-    position: relative;
+    background-position: center;
 
-}
-
-/* Style the main navigation menu */
-nav ul {
-    list-style-type: none;
-    display: flex;
-    justify-content: center;
-    background-color: #0f80ea;
-    padding: 10px;
-}
-
-nav li {
-    display: inline;
-    margin: 0 20px;
-}
-
-nav a {
-    color: rgb(159, 5, 248);
-    text-decoration: none;
-}
-
-/* Style the main content area */
-main {
-    max-width: 800px;
-    margin: 20px auto;
-    padding: 20px;
-    background-color: white;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-/* Style headings */
-h1 {
-    font-size: 36px;
-    margin-bottom: 20px;
-}
-
-h2 {
-    font-size: 24px;
-    margin-bottom: 10px;
-}
-
-/* Add spacing to paragraphs */
-p {
-    margin-bottom: 15px;
 }
