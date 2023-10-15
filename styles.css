@@ -35,7 +35,7 @@
 .navbar ul li {
     list-style: none;
     display: inline-block;
-    margin: 0 40px;
+    margin: 0 50px;
     position: relative;
 }
 
@@ -64,7 +64,7 @@
     width: 100%;
     margin: 0 auto;
     position: absolute;
-    top: 70%;
+    top: 20%;
     transform: translateY(-50%);
     text-align: center;
     color: black;
