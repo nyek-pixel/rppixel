@@ -36,6 +36,14 @@ body {
 
 }
 
+.textbox.right img {
+    max-width: 80%;
+    /* Set the maximum width to 80% of the container */
+    max-height: 80%;
+    /* Set the maximum height to 80% of the container */
+}
+
+
 h2 {
     margin: 0;
     padding: 0;
