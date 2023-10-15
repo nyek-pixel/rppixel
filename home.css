@@ -17,6 +17,21 @@ body {
     width: 300px;
     text-align: center;
     margin-left: 20px;
+
+    transition: background-color 0.3s;
+}
+
+.textbox.right {
+    background: linear-gradient(to bottom, #f0f0f0, #e0e0e0);
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    margin-left: 20px;
+    transition: background-color 0.3s;
+
 }
 
 h2 {
@@ -30,4 +45,9 @@ p {
     margin: 0;
     padding: 0;
     color: #555;
+}
+
+.textbox:hover {
+    background: linear-gradient(to bottom, #e0e0f0, #ff0000);
+    /* Change background color */
 }
