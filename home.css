@@ -30,8 +30,8 @@ body {
     width: 300px;
     text-align: center;
     position: fixed;
-    top: 60px;
-    right: 0;
+    top: 70px;
+    right: 20px;
     transition: background-color 0.3s;
 
 }
