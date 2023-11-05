@@ -3,20 +3,29 @@ body {
     background-color: #f2f2f2;
     display: flex;
     justify-content: center;
+    /* Center horizontally */
     align-items: center;
+    /* Center vertically */
     height: 100vh;
     margin: 0;
 }
 
 .container {
     display: flex;
+    justify-content: center;
+    /* Center horizontally */
     align-items: center;
+    /* Center vertically */
+    min-height: 100vh;
 }
 
 .box {
     width: 100px;
+    /* Adjust the width as needed */
     height: 100px;
+    /* Adjust the height as needed */
     margin: 10px;
+    /* Adjust the margin to control spacing */
     background: linear-gradient(to bottom, #f0f0f0, #e0e0e0);
     border: 1px solid #ccc;
     border-radius: 10px;
