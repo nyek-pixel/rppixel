@@ -9,29 +9,22 @@ body {
 }
 
 .container {
-    max-width: 800px;
-    margin: 0;
     display: flex;
     align-items: center;
 }
 
-.left-boxes,
-.right-boxes {
-    display: flex;
-    flex-direction: column;
-    /* Place boxes in a column layout */
-}
-
 .box {
-    width: 100%;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     margin: 10px;
-    clear: both;
     background: linear-gradient(to bottom, #f0f0f0, #e0e0e0);
     border: 1px solid #ccc;
     border-radius: 10px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
-    text-align: center;
+}
+
+.left-box {
+    margin-right: auto;
 }
 
 .center-box {
@@ -47,8 +40,6 @@ body {
     align-items: center;
 }
 
-p {
-    margin: 0;
-    padding: 0;
-    color: #333;
+.right-box {
+    margin-left: auto;
 }
