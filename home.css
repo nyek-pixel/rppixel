@@ -21,6 +21,21 @@ body {
     transition: background-color 0.3s;
 }
 
+.textbox.left {
+    /* New 3D text box added to the left of the screen */
+    background: linear-gradient(to bottom, #f0f0f0, #e0e0e0);
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    margin-right: 20px;
+    /* Adjusted for spacing on the left */
+
+    transition: background-color 0.3s;
+}
+
 .textbox.right {
     background: linear-gradient(to bottom, #f0f0f0, #e0e0e0);
     border: 1px solid #ccc;
