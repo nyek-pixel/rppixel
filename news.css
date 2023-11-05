@@ -12,13 +12,14 @@ body {
 
 .container {
     display: flex;
+    flex-direction: center;
+    /* Center horizontally */
     align-items: center;
-    justify-content: flex-start;
+    /* Center vertically */
     min-height: 100vh;
     margin: 0;
-    margin-top: 30px;
+    margin-top: 20px;
 }
-
 
 .box {
     width: 100px;
