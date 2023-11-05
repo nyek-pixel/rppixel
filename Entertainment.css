@@ -9,18 +9,21 @@ body {
 }
 
 .container {
-    display: flex;
-    align-items: center;
+    text-align: center;
 }
 
-.content {
+.center-box {
+    display: inline-block;
     background: linear-gradient(to bottom, #f0f0f0, #e0e0e0);
     border: 1px solid #ccc;
     border-radius: 10px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
     padding: 20px;
-    width: 300px;
-    text-align: center;
+    width: 600px;
+}
+
+.video-box {
+    display: inline-block;
 }
 
 h1 {
@@ -33,8 +36,4 @@ p {
     margin: 0;
     padding: 0;
     color: #555;
-}
-
-.video-box {
-    margin-left: 20px;
 }
