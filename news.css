@@ -26,6 +26,7 @@ body {
     /* Adjust the height as needed */
     margin: 10px;
     /* Adjust the margin to control spacing */
+    margin-top: 20px;
     background: linear-gradient(to bottom, #f0f0f0, #e0e0e0);
     border: 1px solid #ccc;
     border-radius: 10px;
