@@ -1,0 +1,37 @@
+/* Styles for the 3D boxes */
+.box {
+    width: 200px;
+    height: 100px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+    margin: 10px;
+    transition: background 0.3s, transform 0.3s;
+}
+
+/* Hover effect */
+.box:hover {
+    background: linear-gradient(to bottom, #ff0000, #cc0000);
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+/* Specific styles for each box */
+.featured-products {
+    background: linear-gradient(to bottom, #f0f0f0, #e0e0e0);
+}
+
+.skincare-tips {
+    background: linear-gradient(to bottom, #f0f0f0, #e0e0e0);
+}
+
+.makeup-tutorials {
+    background: linear-gradient(to bottom, #f0f0f0, #e0e0e0);
+}
+
+.beauty-trends {
+    background: linear-gradient(to bottom, #f0f0f0, #e0e0e0);
+}

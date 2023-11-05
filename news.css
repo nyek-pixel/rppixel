@@ -13,6 +13,13 @@ body {
     align-items: center;
 }
 
+.left-boxes,
+.right-boxes {
+    display: flex;
+    flex-direction: column;
+    /* Place boxes in a column layout */
+}
+
 .box {
     width: 100px;
     height: 100px;
@@ -21,10 +28,7 @@ body {
     border: 1px solid #ccc;
     border-radius: 10px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
-}
-
-.left-box {
-    margin-right: auto;
+    text-align: center;
 }
 
 .center-box {
@@ -40,6 +44,8 @@ body {
     align-items: center;
 }
 
-.right-box {
-    margin-left: auto;
+p {
+    margin: 0;
+    padding: 0;
+    color: #333;
 }
