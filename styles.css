@@ -4,75 +4,64 @@
     font-family: sans-serif;
 }
 
-.banner {
-    width: 100%;
-    height: 100vh;
-    background-image: linear-gradient(rgba(246, 13, 13, 0.75), rgba(246, 211, 211, 0.75)), url(images\ -\ Copy/bannerOS.png);
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    /* Hide horizontal scrollbar */
 }
 
 .navbar {
     width: 100%;
-    margin: 0;
-    text-align: center;
-    padding: 40px 0;
+    background-color: #333;
+    /* Adjust the background color as needed */
+    padding: 15px 0;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    /* Ensure the navbar appears above other content */
 }
 
-.logo {
-    width: 120px;
-    cursor: pointer;
+.navbar img {
+    margin-left: 20px;
+    /* Adjust the logo's margin as needed */
 }
 
 .navbar ul {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    /* Add any other styles you need for the ul */
+    list-style: none;
+    text-align: center;
 }
 
 .navbar ul li {
-    list-style: none;
-    display: inline-block;
-    margin: 0 50px;
-    position: relative;
+    display: inline;
+    margin: 0 20px;
 }
 
 .navbar ul li a {
     text-decoration: none;
-    color: #fff;
-    text-transform: uppercase;
+    color: white;
+    font-size: 18px;
 }
 
-.navbar ul li::after {
-    content: '';
-    height: 3px;
-    width: 0;
-    background: #009289;
-    position: absolute;
-    left: 0;
-    bottom: -10px;
-    transition: 0.5s;
-}
-
-.navbar ul li:hover::after {
+.banner {
     width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(246, 13, 13, 0.75), rgba(246, 211, 211, 0.75)), url(images-Copy/bannerOS.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 .Content {
     width: 100%;
-    margin: 0 auto;
-    position: absolute;
-    top: 500px;
-    transform: translateY(-50%);
     text-align: center;
     color: black;
+    padding: 20px;
 }
 
 .Content h1 {
     font-size: 40px;
-    margin-top: 80px;
+    margin-top: 20px;
 }
 
 .Content p {
@@ -106,13 +95,4 @@ span {
     bottom: 0;
     z-index: -1;
     transition: 0.5s;
-
-}
-
-button:hover span {
-    width: 100;
-}
-
-button:hover {
-    border: none;
 }
