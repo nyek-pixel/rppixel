@@ -1,5 +1,5 @@
 .image-info {
-    margin-top: 10px;
+    margin-top: 30px;
     text-align: center;
 }
 
@@ -14,7 +14,7 @@
 }
 
 .description {
-    margin-top: 20px;
+    margin-top: 50px;
     text-align: center;
     font-size: 16px;
     color: #555;
@@ -23,7 +23,7 @@
 .image-container {
     display: flex;
     justify-content: space-around;
-    margin-top: 20px;
+    margin-top: 50px;
 }
 
 .image-box {
@@ -38,6 +38,6 @@
 }
 
 .description {
-    margin-top: 20px;
+    margin-top: 50px;
     text-align: center;
 }
