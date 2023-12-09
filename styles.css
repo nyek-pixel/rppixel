@@ -7,11 +7,12 @@
 .banner {
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgba(246, 13, 13, 0.75), rgba(246, 211, 211, 0.75)), url(images\ -\ Copy/bannerOS.png);
+    background-image: linear-gradient(rgba(246, 13, 13, 0.75), rgba(246, 211, 211, 0.75)), url('images-Copy/bannerOS.png');
     background-size: cover;
     background-position: center;
-
+    background-attachment: fixed;
 }
+
 
 .navbar {
     width: 100%;
