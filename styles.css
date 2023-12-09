@@ -4,13 +4,29 @@
     font-family: sans-serif;
 }
 
+body {
+    margin: 0;
+    padding: 0;
+}
+
 .banner {
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgba(246, 13, 13, 0.75), rgba(246, 211, 211, 0.75)), url(images\ -\ Copy/bannerOS.png);
+    background-image: linear-gradient(rgba(246, 13, 13, 0.75), rgba(246, 211, 211, 0.75)), url(images-Copy/bannerOS.png);
     background-size: cover;
     background-position: center;
-    background-attachment: fixed
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* Center content vertically */
+}
+
+.image-below-banner img {
+    width: 100%;
+    height: auto;
+    display: block;
 }
 
 .navbar {
@@ -20,59 +36,18 @@
     padding: 40px 0;
 }
 
-.logo {
-    width: 120px;
-    cursor: pointer;
-}
-
-.navbar ul {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    /* Add any other styles you need for the ul */
-}
-
-.navbar ul li {
-    list-style: none;
-    display: inline-block;
-    margin: 0 50px;
-    position: relative;
-}
-
-.navbar ul li a {
-    text-decoration: none;
-    color: #fff;
-    text-transform: uppercase;
-}
-
-.navbar ul li::after {
-    content: '';
-    height: 3px;
-    width: 0;
-    background: #009289;
-    position: absolute;
-    left: 0;
-    bottom: -10px;
-    transition: 0.5s;
-}
-
-.navbar ul li:hover::after {
-    width: 100%;
-}
-
 .Content {
     width: 100%;
-    margin: 0 auto;
-    position: absolute;
-    top: 500px;
-    transform: translateY(-50%);
     text-align: center;
     color: black;
+    padding: 20px;
+    /* Add padding to give space around the content */
 }
 
 .Content h1 {
     font-size: 40px;
-    margin-top: 80px;
+    margin-top: 20px;
+    /* Adjust margin-top as needed */
 }
 
 .Content p {
@@ -106,11 +81,10 @@ span {
     bottom: 0;
     z-index: -1;
     transition: 0.5s;
-
 }
 
 button:hover span {
-    width: 100;
+    width: 100%;
 }
 
 button:hover {
