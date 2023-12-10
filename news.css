@@ -31,13 +31,21 @@ body {
 }
 
 .left-box {
-    margin-right: auto;
-    margin-bottom: auto;
+    margin-right: 10px;
+}
+
+.left-box:nth-child(2) {
+    margin-top: 20px;
+    /* Add space between Left Box 1 and Left Box 2 */
 }
 
 .right-box {
-    margin-left: auto;
-    margin-top: auto;
+    margin-left: 10px;
+}
+
+.right-box:nth-child(2) {
+    margin-top: 20px;
+    /* Add space between Right Box 1 and Right Box 2 */
 }
 
 .center-box {
