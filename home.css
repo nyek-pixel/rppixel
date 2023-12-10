@@ -9,6 +9,21 @@ body {
     text-align: center;
 }
 
+.top-3d-boxes {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.left-3d-box,
+.right-3d-box {
+    width: 30%;
+    background-color: #3498db;
+    color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
 .centered-section {
     text-align: center;
     margin-top: 50px;
@@ -46,4 +61,17 @@ body {
 
 .side-image p {
     margin-top: 5px;
+}
+
+.bottom-section {
+    margin-top: 50px;
+}
+
+.bottom-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.bottom-text {
+    margin-top: 20px;
 }
