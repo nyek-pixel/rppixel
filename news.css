@@ -30,7 +30,26 @@ body {
     align-items: center;
 }
 
+.left-box {
+    margin-right: auto;
+    margin-bottom: auto;
+}
+
+.right-box {
+    margin-left: auto;
+    margin-top: auto;
+}
+
 .center-box {
     width: 150px;
     height: 150px;
+    margin: 10px;
+    background: linear-gradient(to bottom, #f0f0f0, #e0e0e0);
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
