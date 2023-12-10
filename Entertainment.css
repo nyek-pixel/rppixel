@@ -37,3 +37,38 @@ p {
     padding: 0;
     color: #555;
 }
+
+
+.center-box {
+    text-align: center;
+}
+
+.video-box {
+    margin-bottom: 20px;
+}
+
+.content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+
+.image-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.image-box-small {
+    flex-basis: 48%;
+}
+
+.image-box-small img {
+    max-width: 100%;
+    height: auto;
+}
+
+.text-box {
+    text-align: center;
+    margin-top: 10px;
+}
