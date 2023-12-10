@@ -49,6 +49,7 @@ body {
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
+    margin-left: 20px;
 }
 
 .image-box-small {
