@@ -12,11 +12,14 @@ body {
 
 .container {
     display: flex;
-    flex-direction: center;
+    flex-direction: column;
+    /* Updated to column */
+    justify-content: center;
     /* Center horizontally */
     align-items: center;
     /* Center vertically */
     min-height: 100vh;
+    /* Adjusted min-height */
     margin: 0;
     margin-top: 20px;
 }
