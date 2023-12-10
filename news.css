@@ -28,10 +28,6 @@ body {
     width: 100px;
     /* Adjust the width as needed */
     height: 80px;
-    /* Adjust the height as needed */
-    margin: 10px;
-    /* Adjust the margin to control spacing */
-    margin-top: 20px;
     background: linear-gradient(to bottom, #f0f0f0, #e0e0e0);
     border: 1px solid #ccc;
     border-radius: 10px;
@@ -42,6 +38,7 @@ body {
 .left-box {
     top: 0;
     left: 0;
+    z-index: 1;
 }
 
 .center-box {
@@ -61,4 +58,5 @@ body {
 .right-box {
     top: 0;
     right: 0;
+    z-index: 1;
 }
