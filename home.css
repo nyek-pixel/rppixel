@@ -30,6 +30,9 @@ body {
     padding: 20px;
     width: 300px;
     text-align: center;
+    position: fixed;
+    top: 70px;
+    right: 20px;
     margin-right: 20px;
     /* Adjusted for spacing on the left */
 
