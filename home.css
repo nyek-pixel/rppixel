@@ -12,7 +12,7 @@ body {
 .top-3d-boxes {
     display: flex;
     justify-content: space-between;
-    margin-top: 20px;
+    margin-top: 5px;
 }
 
 .left-3d-box,
