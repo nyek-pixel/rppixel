@@ -101,3 +101,30 @@ body {
 .bottom-3d-box li {
     margin-bottom: 5px;
 }
+
+.link-box {
+    text-decoration: none;
+    color: inherit;
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+}
+
+.link-box:hover .box-content {
+    background-color: #f1f1f1;
+}
+
+.box-content {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.link-box h3 {
+    margin-bottom: 10px;
+}
+
+.link-box p {
+    margin-bottom: 0;
+}
