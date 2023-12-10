@@ -29,9 +29,8 @@ body {
 
 }
 
-.left-box,
-.right-box {
-    margin-bottom: auto;
+.left-box {
+    margin-right: 10px;
 }
 
 .center-box {
@@ -45,4 +44,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.right-box {
+    margin-left: 10px;
 }
