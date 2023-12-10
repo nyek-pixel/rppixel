@@ -47,6 +47,7 @@ body {
 .side-image {
     text-align: center;
     width: 30%;
+    margin: 0 10px 20px;
 }
 
 .side-image img {
