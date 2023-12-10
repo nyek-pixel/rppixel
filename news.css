@@ -54,3 +54,13 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+.center-content {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.center-content img {
+    max-width: 100%;
+    /* Ensure the image doesn't exceed its container */
+}
