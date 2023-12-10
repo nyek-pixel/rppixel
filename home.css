@@ -75,3 +75,29 @@ body {
 .bottom-text {
     margin-top: 20px;
 }
+
+
+.bottom-3d-box {
+    width: 60%;
+    margin: 20px auto;
+    background: linear-gradient(rgba(255, 0, 0, 0.75), rgba(255, 211, 211, 0.75));
+    color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.box-content {
+    text-align: left;
+}
+
+.bottom-3d-box h3 {
+    margin-bottom: 10px;
+}
+
+.bottom-3d-box ul {
+    list-style-type: none;
+}
+
+.bottom-3d-box li {
+    margin-bottom: 5px;
+}
