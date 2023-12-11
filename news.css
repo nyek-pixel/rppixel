@@ -61,6 +61,6 @@ body {
 }
 
 .center-content img {
-    max-width: 100%;
+    max-width: 40%;
     /* Ensure the image doesn't exceed its container */
 }
